@@ -1,0 +1,10 @@
+# action.yml
+name: "Tangy Mkdocs Build Action"
+description: "Builds documentation using Mkdocs and deploys to GitHub pages"
+author: "Matt Finholt-Daniel, mfinholt@rti.org"
+branding:
+  icon: "book-open"
+  color: "orange"
+runs:
+  using: "docker"
+  image: "Dockerfile"
