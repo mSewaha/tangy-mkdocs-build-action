@@ -1,10 +1,10 @@
 # tangy-mkdocs-build-action
 
-This GihUb Action will compile your MkDocs site and Deploy it to GitHub Pages using one of the default themes. It assumes that you have a `mkdocs.yml` file a in the top-level directory of your project and that the documentation source files (in Markdown format) are stored within the `docs/` directory. 
+This GitHub Action will compile your MkDocs site and Deploy it to GitHub Pages using one of the default themes. It assumes that you have a `mkdocs.yml` file a in the top-level directory of your project and that the documentation source files (in Markdown format) are stored within the `docs/` directory. 
 
 GitHub Action for building the Tangerine Documentation with Mkdocs and publish to GitHub Pages
 
-## Example Action Workflow for rour Repo
+## Example Action Workflow for your Repo
 
 ```YAML
 name: Build Documentation using MkDocs
