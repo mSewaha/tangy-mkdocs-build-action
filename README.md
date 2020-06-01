@@ -6,7 +6,7 @@ GitHub Action for building the Tangerine Documentation with Mkdocs and publish t
 
 ## Example Action Workflow for rour Repo
 
-```shell
+```YAML
 name: Build Documentation using MkDocs
 
 # Controls when the action will run. Triggers the workflow on push or pull request
