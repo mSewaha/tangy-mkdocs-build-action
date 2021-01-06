@@ -14,4 +14,4 @@ RUN apk add --no-cache \
 RUN pip install --quiet --no-cache-dir mkdocs==${MKDOCS_VERSION}
 RUN pip install mkdocs-git-revision-date-localized-plugin
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT "/entrypoint.sh"
